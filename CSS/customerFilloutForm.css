@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Noto Serif JP', serif;
+}
+p {
+	font-size: 5px;
+	border: inset 3px;
+}
+span {
+	display: flex;
+	justify-content: center;
+}
+input {
+	float: right;
+	padding-left: 5%;
+	width:  45%;
+}
+textarea{
+	resize: none;
+	font-size: 15px;
+	height: 70px;
+	border-radius: 5px;
+	text-overflow: clip;
+	overflow-y: scroll;
+}
+label{
+	padding-right: 5px;
+	float: left;
+}
+input{
+	border-radius: 5px;
+}
+#FormContainer{
+	max-width: 500px;
+	height: 575px;
+	overflow-y: scroll;
+}
+#FormTitle{
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+#partAmountContainer{
+	display: none;
+}
+.TOS {
+	font-size: 12px;
+	height: 100px;
+	text-overflow: clip;
+	overflow-y: scroll;
+	text-overflow: clip;
+	
+}
